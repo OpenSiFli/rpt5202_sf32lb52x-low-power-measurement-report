@@ -4,14 +4,14 @@ env:
   PROJ_NAME: doc-template
 
 on:
-  push:
-    branches:
-      - main
-      - 'release/*'
-    paths:
-      - 'source/**'
-    tags:
-      - '*'
+  # push:
+  #   branches:
+  #     - main
+  #     - 'release/*'
+  #   paths:
+  #     - 'source/**'
+  #   tags:
+  #     - '*'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
