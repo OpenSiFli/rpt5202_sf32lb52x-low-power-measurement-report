@@ -1,7 +1,7 @@
 name: Build and Upload Documentation
 
 env:
-  PROJ_NAME: doc-template
+  PROJ_NAME: sf32lb52x-low-power-test
 
 on:
   # push:
