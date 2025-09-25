@@ -1,7 +1,7 @@
 name: Build and Upload Documentation
 
 env:
-  PROJ_NAME: sf32lb52x-low-power-test
+  PROJ_NAME: rpt5202_sf32lb52x-low-power-measurement-report
 
 on:
   # push:
