@@ -19,5 +19,5 @@ download
 coremark
 whileloop
 showdown
-jieguo
+result
 ```

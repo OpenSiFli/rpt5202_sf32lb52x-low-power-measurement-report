@@ -10,35 +10,35 @@ SF32LB52x is a dual-core architecture SoC chip based on **Arm Cortex-M33 STAR-MC
 :gutter: 3
 
 :::{grid-item-card} 📋 Chip Introduction
-:link: low_power/brief_introduction
+:link: brief_introduction
 :link-type: doc
 
 Introduction to the chip
 :::
 
 :::{grid-item-card} 🧪 Test Environment
-:link: low_power/test_environment/index
+:link: test_environment/index
 :link-type: doc
 
 Learn about the hardware environment, software configuration and testing tools required for testing
 :::
 
 :::{grid-item-card} 📡 BLE Low Power Test
-:link: low_power/ble/index
+:link: ble/index
 :link-type: doc
 
 Detailed test methods and results for Bluetooth Low Energy scenarios
 :::
 
 :::{grid-item-card} 🔵 BT Classic Bluetooth Test
-:link: low_power/bt/index
+:link: bt/index
 :link-type: doc
 
 Power consumption test data for classic Bluetooth application scenarios
 :::
 
 :::{grid-item-card} ⚡ Coremark Performance Test
-:link: low_power/coremark/index
+:link: coremark/index
 :link-type: doc
 
 Power consumption performance analysis in benchmark performance testing
@@ -49,9 +49,13 @@ Power consumption performance analysis in benchmark performance testing
 
 ```{toctree}
 :maxdepth: 3
-:titlesonly:
+:hidden:
 
-low_power/index
+brief_introduction
+test_environment/index
+ble/index
+bt/index
+coremark/index
 ```
 
 

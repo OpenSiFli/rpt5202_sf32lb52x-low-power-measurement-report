@@ -11,6 +11,6 @@ download
 init
 adv
 connect
-jieguo
+result
 ```
 

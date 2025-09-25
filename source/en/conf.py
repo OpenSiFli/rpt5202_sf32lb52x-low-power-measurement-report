@@ -10,6 +10,10 @@ from sifli_docs_toolbox.docs_conf import *
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+project = 'SF32LB52x Low Power Measurement Report'
+author = 'OpenSiFli'
+copyright = '2025, OpenSiFli'
+
 
 # uncomment this this line if you want to hide version listbox
 # del html_context['versions']

@@ -8,5 +8,5 @@ Accurate power consumption testing requires standardized environment configurati
 
 middleware
 software
-gonhaotest
+measurement_method
 ```

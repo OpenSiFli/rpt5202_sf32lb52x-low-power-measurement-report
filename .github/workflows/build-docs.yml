@@ -4,14 +4,14 @@ env:
   PROJ_NAME: rpt5202_sf32lb52x-low-power-measurement-report
 
 on:
-  # push:
-  #   branches:
-  #     - main
-  #     - 'release/*'
-  #   paths:
-  #     - 'source/**'
-  #   tags:
-  #     - '*'
+   push:
+     branches:
+       - main
+       - 'release/*'
+     paths:
+       - 'source/**'
+     tags:
+       - '*'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
