@@ -6,13 +6,13 @@ The current values for ADV and Connection in the table are incremental currents 
 <table border="1" style="border-collapse: collapse; border: 1px solid black;">
 <thead>
 <tr>
-<th style="border: 1px solid black; padding: 8px;">Mode</th>
-<th style="border: 1px solid black; padding: 8px;">Condition</th>
-<th style="border: 1px solid black; padding: 8px;">Power Supply Voltage 3.3V<br/>@TXpower=0dBm</th>
-<th style="border: 1px solid black; padding: 8px;">Power Supply Voltage 3.3V<br/>@TXpower=4dBm</th>
-<th style="border: 1px solid black; padding: 8px;">Power Supply Voltage 3.3V<br/>@TXpower=10dBm</th>
-<th style="border: 1px solid black; padding: 8px;">Power Supply Voltage 3.3V<br/>@TXpower=13dBm</th>
-<th style="border: 1px solid black; padding: 8px;">Unit</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Mode</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Condition</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Power Supply Voltage 3.3V<br/>@TXpower=0dBm</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Power Supply Voltage 3.3V<br/>@TXpower=4dBm</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Power Supply Voltage 3.3V<br/>@TXpower=10dBm</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Power Supply Voltage 3.3V<br/>@TXpower=13dBm</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Unit</th>
 </tr>
 </thead>
 <tbody>

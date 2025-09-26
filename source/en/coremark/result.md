@@ -7,10 +7,10 @@
 <table border="1" style="border-collapse: collapse; border: 1px solid black;">
 <thead>
 <tr>
-<th style="border: 1px solid black; padding: 8px;">Clock Frequency</th>
-<th style="border: 1px solid black; padding: 8px;">Power Supply Voltage 3.3V Current(uA)</th>
-<th style="border: 1px solid black; padding: 8px; width: 100px;">Power Supply Voltage 3.3V Current Increment(uA/MHz)</th>
-<th style="border: 1px solid black; padding: 8px;">CoreMark</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Clock Frequency</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Power Supply Voltage 3.3V Current(uA)</th>
+<th style="border: 1px solid black; padding: 8px; width: 100px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Power Supply Voltage 3.3V Current Increment(uA/MHz)</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">CoreMark</th>
 </tr>
 </thead>
 <tbody>
@@ -53,6 +53,12 @@
 <td style="border: 1px solid black; padding: 8px;">549</td>
 <td style="border: 1px solid black; padding: 8px;">12MHz</td>
 </tr>
+<tr>
+<td style="border: 1px solid black; padding: 8px;">24MHz D1</td>
+<td style="border: 1px solid black; padding: 8px;">1003</td>
+<td style="border: 1px solid black; padding: 4px; text-align: center; width: 100px;">-</td>
+<td style="border: 1px solid black; padding: 8px;">24MHz D1</td>
+</tr>
 </tbody>
 </table>
 
@@ -61,9 +67,9 @@
 <table border="1" style="border-collapse: collapse; border: 1px solid black;">
 <thead>
 <tr>
-<th style="border: 1px solid black; padding: 8px;">Clock Frequency</th>
-<th style="border: 1px solid black; padding: 8px;">Power Supply Voltage 3.3V Current(uA)</th>
-<th style="border: 1px solid black; padding: 8px; width: 100px;">Power Supply Voltage 3.3V Current Increment(uA/MHz)</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Clock Frequency</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Power Supply Voltage 3.3V Current(uA)</th>
+<th style="border: 1px solid black; padding: 8px; width: 100px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Power Supply Voltage 3.3V Current Increment(uA/MHz)</th>
 </tr>
 </thead>
 <tbody>
@@ -104,6 +110,17 @@
 
 ### Shutdown Power Consumption
 
-| Test Item | Power Supply Voltage 3.3V Current(uA) |
-|--------|----------------------|
-| Key Wake-up (Send shutdown) | 1.3 |
+<table border="1" style="border-collapse: collapse; border: 1px solid black;">
+<thead>
+<tr>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Test Item</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">Power Supply Voltage 3.3V Current(uA)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid black; padding: 8px;">Key Wake-up (Send shutdown)</td>
+<td style="border: 1px solid black; padding: 8px;">1.3</td>
+</tr>
+</tbody>
+</table>

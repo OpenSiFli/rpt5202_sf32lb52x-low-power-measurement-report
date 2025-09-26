@@ -6,13 +6,13 @@
 <table border="1" style="border-collapse: collapse; border: 1px solid black;">
 <thead>
 <tr>
-<th style="border: 1px solid black; padding: 8px;">模式</th>
-<th style="border: 1px solid black; padding: 8px;">条件</th>
-<th style="border: 1px solid black; padding: 8px;">电源电压 3.3V<br/>@TXpower=0dBm</th>
-<th style="border: 1px solid black; padding: 8px;">电源电压 3.3V<br/>@TXpower=4dBm</th>
-<th style="border: 1px solid black; padding: 8px;">电源电压 3.3V<br/>@TXpower=10dBm</th>
-<th style="border: 1px solid black; padding: 8px;">电源电压 3.3V<br/>@TXpower=13dBm</th>
-<th style="border: 1px solid black; padding: 8px;">单位</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">模式</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">条件</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">电源电压 3.3V<br/>@TXpower=0dBm</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">电源电压 3.3V<br/>@TXpower=4dBm</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">电源电压 3.3V<br/>@TXpower=10dBm</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">电源电压 3.3V<br/>@TXpower=13dBm</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #f0f0f0; font-weight: bold; text-align: center;">单位</th>
 </tr>
 </thead>
 <tbody>
