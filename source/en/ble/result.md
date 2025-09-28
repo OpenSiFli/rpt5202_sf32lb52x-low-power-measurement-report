@@ -1,8 +1,8 @@
-Measurement Results Summary
-===========================
+# Measurement Results Summary
 
 The current values for ADV and Connection in the table are incremental currents for those modes. Sleep is the sleep current. The actual average current equals the sum of incremental current and sleep current. For example, ADV at 1-second interval with 4dBm transmission power has an average current of 10.5+14.5=24.5uA
 
+```{eval-rst}
 BLE Power Consumption Table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -25,3 +25,4 @@ BLE Power Consumption Table
 +------------------+-----------+---------------+---------------+----------------+----------------+------+
 | **Sleep**        |           | 14.5          | 14.5          | 14.5           | 14.5           | uA   |
 +------------------+-----------+---------------+---------------+----------------+----------------+------+
+```

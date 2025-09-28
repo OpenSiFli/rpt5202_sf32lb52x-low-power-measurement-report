@@ -1,5 +1,6 @@
 # CoreMark
-### HPSYS
+
+## HPSYS
 1. * Open the serial debugging tool, connect the HCPU console serial port, and connect the measurement device to the module under test
 2. * Reset, after successful startup, the following log appears in the HCPU console as shown in the figure below
 

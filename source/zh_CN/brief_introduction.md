@@ -4,18 +4,21 @@
 
 **SF32LB52x** 是一颗基于 **Arm Cortex-M33 STAR-MC1** 处理器的创新性大小核架构 SoC 芯片。
 
-```{grid-item-card} 🚀 高性能大核
+:::::{grid} 1 2 2 2
+:gutter: 3
+
+::::{grid-item-card} 🚀 高性能大核
 :class-header: bg-primary text-white
 
-**最高工作频率**: 192MHz
+**最高工作频率**: 240MHz
 ^^^
 专门设计用于高性能运算场景：
 - 🖼️ 图形处理
 - 🎵 音频处理  
 - 🧠 神经网络运算
-```
+::::
 
-```{grid-item-card} 🔋 低功耗小核 (LCPU)
+::::{grid-item-card} 🔋 低功耗小核 (LCPU)
 :class-header: bg-success text-white
 
 **最高工作频率**: 48MHz
@@ -24,7 +27,9 @@
 - 📡 蓝牙协议栈 Controller 层
 - ⏰ 实时任务处理
 - 🔌 待机状态管理
-```
+::::
+
+:::::
 
 
 
@@ -66,33 +71,38 @@
 
 ### 🔍 影响功耗的关键因素
 
-```{grid-item-card} 🔬 芯片因素
+:::::{grid} 1 2 2 3
+:gutter: 3
+
+::::{grid-item-card} 🔬 芯片因素
 - 芯片自身的个体差异
 - 制造工艺的批次变化
-```
+::::
 
-```{grid-item-card} 🔧 硬件因素
+::::{grid-item-card} 🔧 硬件因素
 - 外围元器件的选型与质量
 - 芯片内置 Buck 的外接电感
 - PCB 设计与布线
-```
+::::
 
-```{grid-item-card} 📏 测试环境
+::::{grid-item-card} 📏 测试环境
 - 测试设备的准确度与校准
 - 电源的稳定性与纹波
 - 环境温湿度条件
-```
+::::
 
-```{grid-item-card} 💻 软件配置
+::::{grid-item-card} 💻 软件配置
 - 固件版本与编译选项
 - I/O 引脚的配置状态
 - 时钟与电源管理设置
-```
+::::
 
-```{grid-item-card} 🌡️ 环境条件
+::::{grid-item-card} 🌡️ 环境条件
 - 工作温度范围
 - 电磁干扰水平
 - 供电电压波动
-```
+::::
+
+:::::
 
 

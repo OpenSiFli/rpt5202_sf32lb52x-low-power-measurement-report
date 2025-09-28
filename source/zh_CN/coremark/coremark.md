@@ -1,5 +1,6 @@
 # CoreMark
-### HPSYS
+
+## HPSYS
 1. * 打开串口调试工具，连接 HCPU 的 console 串口，连接测量设备与被测模块
 2. * 复位，启动成功后在 HCPU 的 console 中出现如下图的 log
 
