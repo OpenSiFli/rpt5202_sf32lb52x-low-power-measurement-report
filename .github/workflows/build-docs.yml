@@ -84,6 +84,12 @@ jobs:
           SIFLI_DOC_VERSION: ${{ steps.determine-version.outputs.VERSION }}
         run: sf-build-docs --lang=en
 
+      - name: Copy PDF to html folder for upload
+        run: |
+          cp ./build/en/simplepdf/*.pdf ./build/en/html/
+          cp ./build/zh_CN/simplepdf/*.pdf ./build/zh_CN/html/
+
+
       - name: Configure COSCMD
         run: |
           coscmd config -a ${{ secrets.COS_DOCS_SECRET_ID }} -s ${{ secrets.COS_DOCS_SECRET_KEY }} -b ${{ secrets.COS_DOCS_BUCKET }} -r ${{ secrets.COS_DOCS_REGION }}
@@ -93,8 +99,6 @@ jobs:
           VERSION=${{ steps.determine-version.outputs.VERSION }}
           coscmd upload -rs --delete --yes ./build/zh_CN/html/ projects/${PROJ_NAME}/$VERSION/zh_CN/
           coscmd upload -rs --delete --yes ./build/en/html/ projects/${PROJ_NAME}/$VERSION/en/
-          coscmd upload -rs --yes ./build/zh_CN/simplepdf/ projects/${PROJ_NAME}/$VERSION/zh_CN/ --include *.pdf
-          coscmd upload -rs --yes ./build/en/simplepdf/ projects/${PROJ_NAME}/$VERSION/en/ --include *.pdf
           echo "Uploaded documentation to $VERSION/"
 
   finalize:
