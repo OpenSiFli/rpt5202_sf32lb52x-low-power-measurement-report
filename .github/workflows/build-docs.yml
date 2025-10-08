@@ -63,26 +63,26 @@ jobs:
         working-directory: ./
         env:
           SIFLI_DOC_VERSION: ${{ steps.determine-version.outputs.VERSION }}
-        run: sf-build-docs --pdf --lang=zh_CN
+        run: sf-build-docs --pdf --lang=zh_CN --clean
 
 
       - name: Build zh_CN HTML documentation
         working-directory: ./
         env:
           SIFLI_DOC_VERSION: ${{ steps.determine-version.outputs.VERSION }}
-        run: sf-build-docs --lang=zh_CN
+        run: sf-build-docs --lang=zh_CN --clean
 
       - name: Build en PDF documentation
         working-directory: ./
         env:
           SIFLI_DOC_VERSION: ${{ steps.determine-version.outputs.VERSION }}
-        run: sf-build-docs --pdf --lang=en
+        run: sf-build-docs --pdf --lang=en --clean
 
       - name: Build en HTML documentation
         working-directory: ./
         env:
           SIFLI_DOC_VERSION: ${{ steps.determine-version.outputs.VERSION }}
-        run: sf-build-docs --lang=en
+        run: sf-build-docs --lang=en --clean
 
       - name: Copy PDF to html folder for upload
         run: |
