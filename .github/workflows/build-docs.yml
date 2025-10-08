@@ -93,8 +93,8 @@ jobs:
           VERSION=${{ steps.determine-version.outputs.VERSION }}
           coscmd upload -rs --delete --yes ./build/zh_CN//html/ projects/${PROJ_NAME}/$VERSION/zh_CN/
           coscmd upload -rs --delete --yes ./build/en//html/ projects/${PROJ_NAME}/$VERSION/en/
-          coscmd upload -rs --delete --yes ./build/zh_CN/simplepdf projects/${PROJ_NAME}/$VERSION/zh_CN/ --include *.pdf
-          coscmd upload -rs --delete --yes ./build/en/simplepdf projects/${PROJ_NAME}/$VERSION/en/ --include *.pdf
+          coscmd upload -rs --delete --yes ./build/zh_CN/simplepdf/ projects/${PROJ_NAME}/$VERSION/zh_CN/ --include *.pdf
+          coscmd upload -rs --delete --yes ./build/en/simplepdf/ projects/${PROJ_NAME}/$VERSION/en/ --include *.pdf
           echo "Uploaded documentation to $VERSION/"
 
   finalize:
