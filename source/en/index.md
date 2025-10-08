@@ -2,10 +2,6 @@
 
 Welcome to the SF32LB52x series chip low power test report!
 
-## 📋 Overview
-
-SF32LB52x is a dual-core architecture SoC chip based on **Arm Cortex-M33 STAR-MC1** processor. This document provides detailed power consumption test methods and reference results to help you better understand and use this chip.
-
 ::::{grid} 1 2 2 3
 :gutter: 3
 
@@ -46,7 +42,7 @@ Power consumption performance analysis in benchmark performance testing
 
 ::::
 
-
+````{if-builder} html
 ```{toctree}
 :maxdepth: 3
 :hidden:
@@ -57,5 +53,18 @@ ble/index
 bt/index
 coremark/index
 ```
+````
 
+````{if-builder} simplepdf
+```{toctree}
+:maxdepth: 3
+:hidden:
+:numbered:
 
+brief_introduction
+test_environment/index
+ble/index
+bt/index
+coremark/index
+```
+````

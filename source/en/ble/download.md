@@ -1,5 +1,5 @@
 # Routine Compilation and Programming
-### Compilation
+## Compilation
 If using pre-compiled image files, you can skip directly to the programming section to start testing.
 
 Enter the example\pm\bt\project\hcpu directory and execute
@@ -18,7 +18,7 @@ Open the menuconfig configuration menu, change all three values in the figure be
 
 ![](assert/image4.png)
 
-### Programming Image
+## Programming Image
 Execute 
 ```
 build_sf32lb52-core_n16r16_hcpu\uart_download.bat 

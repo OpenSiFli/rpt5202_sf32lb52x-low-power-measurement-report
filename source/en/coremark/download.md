@@ -1,5 +1,5 @@
 # Routine Compilation and Programming
-### Compilation
+## Compilation
 If using pre-compiled image files, you can skip directly to the programming section to start testing.
 Enter the example\pm\coremark\project\hcpu directory and execute
 ```
@@ -9,7 +9,7 @@ Compile and generate HCPU image file. The compiled image file is saved in the bu
 
 ![](assert/image3.png)
 
-### Programming Image
+## Programming Image
 Execute in the command line compilation directory
 ```
 build_sf32lb52-core_n16r16_hcpu\uart_download.bat

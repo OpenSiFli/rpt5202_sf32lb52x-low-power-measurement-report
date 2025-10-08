@@ -11,9 +11,6 @@ from sifli_docs_toolbox.docs_conf import *
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'SF32LB52x Low Power Measurement Report'
-author = 'OpenSiFli'
-copyright = '2025, OpenSiFli'
-
 
 # uncomment this this line if you want to hide version listbox
 # del html_context['versions']
@@ -23,5 +20,15 @@ copyright = '2025, OpenSiFli'
 
 # Additional extensions for enhanced styling
 
-# MyST parser configuration for enhanced markdown support
+chip = 'SF32LB52x'
+doc_id = 'RPT5202'
+doc_name = 'Low Power Consumption Scenario Testing Report'
+doc_dir = 'rpt5202_sf32lb52x-low-power-measurement-report'
 
+html_context.update({
+    'chip': chip,
+    'doc_id': doc_id,
+    'doc_name': doc_name,
+    })
+
+pdf_url_enabled = True

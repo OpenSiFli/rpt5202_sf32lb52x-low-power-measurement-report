@@ -2,10 +2,6 @@
 
 欢迎使用 SF32LB52x 系列芯片低功耗测试报告！
 
-## 📋 概述
-
-SF32LB52x 是一颗基于 **Arm Cortex-M33 STAR-MC1** 处理器的大小核架构 SoC 芯片。本文档提供了详细的功耗测试方法与参考结果，帮助您更好地了解和使用这款芯片。
-
 ::::{grid} 1 2 2 3
 :gutter: 3
 
@@ -47,6 +43,7 @@ SF32LB52x 是一颗基于 **Arm Cortex-M33 STAR-MC1** 处理器的大小核架�
 ::::
 
 
+````{if-builder} html
 ```{toctree}
 :maxdepth: 3
 :hidden:
@@ -57,5 +54,18 @@ ble/index
 bt/index
 coremark/index
 ```
+````
 
+````{if-builder} simplepdf
+```{toctree}
+:maxdepth: 3
+:hidden:
+:numbered:
 
+brief_introduction
+test_environment/index
+ble/index
+bt/index
+coremark/index
+```
+````

@@ -1,5 +1,5 @@
 # Routine Compilation and Programming
-### Compilation
+## Compilation
 Enter the example\pm\bt\project\hcpu directory and execute 
 ```
 scons --board=sf32lb52-core_n16r16 -j8
@@ -14,7 +14,7 @@ menuconfig --board=sf32lb52-core_n16r16
 to open the menuconfig configuration menu, change all three values in the figure below to 10, save and exit, then compile to generate a new img file.
 ![](assert/image4.png)
 
-### Programming Image
+## Programming Image
 Execute in the command line compilation directory 
 ```
 build_sf32lb52-core_n16r16_hcpu\uart_download.bat

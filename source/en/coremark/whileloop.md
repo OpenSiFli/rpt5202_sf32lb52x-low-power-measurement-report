@@ -1,5 +1,5 @@
 # While Loop
-### HPSYS
+## HPSYS
 1. * Open serial debugging tool, connect to HCPU console serial port, connect measurement device to the module under test
 2. * Reset, after successful startup the log shown below appears in HCPU console
 ```{figure} assert/image4.png

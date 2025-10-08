@@ -1,7 +1,10 @@
 # ADV场景
 1. * 打开串口调试工具，连接 HCPU 的 console 串口，连接测量设备与被测模块
-2. * 唤醒 PIN 接低电平，按底板的 Reset 键复位，启动成功后出现如图下图的 log
-![](assert/image5.png)
+2. * 唤醒 PIN 接低电平，按底板的 Reset 键复位，启动成功后出现如图[下图](adv_log)的 log
+
+```{image} assert/image5.png
+:name: adv_log
+```
 
 3. * 启动后默认的 ADV 周期为 200ms，由于 Inquiry Scan 和 Page Scan 也会自动打开，为测试 BLE 的功耗，需要使用 btskey 命令关闭 Scan，关闭命令参考经典蓝牙的Scan部分。例如，先发送 btskey s 命令，如果显示当前位于主菜单，就可以依次发送以下三个命令关闭 Page Scan 和 Inquiry Scan。发送完 btskey0，可以再发送 btskey 4 查询 Scan 的状态。
 ```

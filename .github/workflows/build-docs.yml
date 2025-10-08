@@ -59,13 +59,26 @@ jobs:
           sudo apt-get update
           pip install coscmd
 
-      - name: Build zh_CN documentation
+      - name: Build zh_CN PDF documentation
+        working-directory: ./
+        env:
+          SIFLI_DOC_VERSION: ${{ steps.determine-version.outputs.VERSION }}
+        run: sf-build-docs --pdf --lang=zh_CN
+
+
+      - name: Build zh_CN HTML documentation
         working-directory: ./
         env:
           SIFLI_DOC_VERSION: ${{ steps.determine-version.outputs.VERSION }}
         run: sf-build-docs --lang=zh_CN
-      
-      - name: Build en documentation for ${{ matrix.variant }}
+
+      - name: Build en PDF documentation
+        working-directory: ./
+        env:
+          SIFLI_DOC_VERSION: ${{ steps.determine-version.outputs.VERSION }}
+        run: sf-build-docs --pdf --lang=en
+
+      - name: Build en HTML documentation
         working-directory: ./
         env:
           SIFLI_DOC_VERSION: ${{ steps.determine-version.outputs.VERSION }}
@@ -80,6 +93,8 @@ jobs:
           VERSION=${{ steps.determine-version.outputs.VERSION }}
           coscmd upload -rs --delete --yes ./build/zh_CN//html/ projects/${PROJ_NAME}/$VERSION/zh_CN/
           coscmd upload -rs --delete --yes ./build/en//html/ projects/${PROJ_NAME}/$VERSION/en/
+          coscmd upload -rs --delete --yes ./build/zh_CN/simplepdf projects/${PROJ_NAME}/$VERSION/zh_CN/ --include *.pdf
+          coscmd upload -rs --delete --yes ./build/en/simplepdf projects/${PROJ_NAME}/$VERSION/en/ --include *.pdf
           echo "Uploaded documentation to $VERSION/"
 
   finalize:

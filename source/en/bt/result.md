@@ -1,8 +1,8 @@
 # Measurement Results Summary
-### Actually measured current as shown in figure:
+## Actually measured current as shown in figure:
 The current values for Sniff mode and Scan in the table are incremental currents for those modes. Sleep is the sleep current. The actual average current equals the sum of incremental current and sleep current. For example, in Sniff mode, 500ms interval, attempt=4, 10dBm transmission power, average current is 23+16.6=39.6uA
 
-### BT Power Consumption
+## BT Power Consumption
 
 | Mode | Condition | Power Supply Voltage 3.3V @TXpower=0dBm | Power Supply Voltage 3.3V @TXpower=4dBm | Power Supply Voltage 3.3V @TXpower=10dBm | Power Supply Voltage 3.3V @TXpower=13dBm | Unit |
 |------|-----------|------------------------------------------|------------------------------------------|-------------------------------------------|-------------------------------------------|------|

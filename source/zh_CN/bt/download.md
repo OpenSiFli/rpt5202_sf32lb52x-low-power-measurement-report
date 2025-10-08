@@ -1,5 +1,5 @@
 # 例程编译与烧录
-### 编译
+## 编译
 进入example\pm\bt\project\hcpu目录，执行 
 ```
 scons --board=sf32lb52-core_n16r16 -j8
@@ -14,7 +14,7 @@ menuconfig --board=sf32lb52-core_n16r16
 来打开 menuconffg的配置菜单，将下图中的三个数值都改为 10，保存退出，编译生成新的 img 文件。
 ![](assert/image4.png)
 
-### 烧写镜像
+## 烧写镜像
 在命令行编译的目录下执行 
 ```
 build_sf32lb52-core_n16r16_hcpu\uart_download.bat
