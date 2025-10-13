@@ -1,4 +1,4 @@
-# 🎯 Test Objectives
+#  Test Objectives
 
 Evaluate chip power consumption performance under different computational intensities through standardized processor tests:
 
