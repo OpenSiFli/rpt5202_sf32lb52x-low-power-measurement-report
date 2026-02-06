@@ -14,9 +14,9 @@
 :align: center
 ```
 
-4. * After successful connection, BLE enters connection state, with default connection period of 50ms
+4. * After successful connection, BLE enters connection state, with default connection period of 15ms
 
-5. * Connect wake-up PIN to high level, system enters low power mode, measure current at 50ms interval
+5. * Connect wake-up PIN to high level, system enters low power mode, measure current at 15ms interval
 
 6. * Connect wake-up PIN to low level, system exits low power mode, send command ble_config conn 50 in console to change connection period to 50ms. Confirm that console shows the print as shown below, where "Updated connection interval: 40" indicates connection interval in 1.25ms units, 40×1.25=50ms. If no print appears, it means parameter update failed and the command needs to be sent again. Also observe current waveform to confirm whether interval update is successful
 
