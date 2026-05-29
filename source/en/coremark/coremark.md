@@ -12,6 +12,7 @@
 4. * Send command run_coremark 144 to get average current C1, send run_coremark 120 to get average current C2, obtain the incremental current for 144MHz and 120MHz: C=(C1-C2)/(144-120)
 5. * Send command run_coremark 48 to get average current C1, send run_coremark 24 to get average current C2, obtain the incremental current for 48MHz: C=(C1-C2)/(48-24)
 6. * Send command run_coremark 24 to get average current C1, send run_coremark 12 to get average current C2, obtain the incremental current for 24MHz and 12MHz: C=(C1-C2)/(24-12)
+* Note: The 24 MHz clock has two modes: D0 and D1. D0 is used by default. To test the D1 mode, append parameter 1 to the command: run_coremark 24 1.
 7. * As shown in the figure below, Phase 1 is the current waveform in WFI mode when HCPU runs at 192MHz main frequency. After starting to execute CoreMark, it enters Phase 2, where the current rises and remains until the test ends. Phase 3 is the current waveform returning to WFI mode
 ![](assert/image5.png)
 

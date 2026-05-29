@@ -1,4 +1,6 @@
 # ADV Scenario
+Note: It is recommended to conduct ADV scenario tests in a shielding box or shielding room. Otherwise, interference from other devices will lead to inflated test results.
+
 1. * Open serial debugging tool, connect to HCPU console serial port, connect measurement device to the module under test
 2. * Connect wake-up PIN to low level, press Reset key on the baseboard to reset. After successful startup, the log shown in the figure below appears
 ![](assert/image5.png)
